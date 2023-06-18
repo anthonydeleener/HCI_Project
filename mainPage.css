@@ -1,0 +1,63 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.green_bg {
+  width: 100%;
+  height: 100%;
+  background-color: #2ec364;
+  display: flex;
+}
+
+.title_logo {
+  width: 100%;
+  height: 10%;
+  padding-left: 10px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.logo_img {
+  width: 20%;
+}
+
+.left {
+  width: 60%;
+  height: 100%;
+}
+
+.right {
+  width: 40%;
+  height: 100%;
+  box-sizing: border-box;
+  background: linear-gradient(
+    to left,
+    rgba(22, 22, 22, 1),
+    rgba(22, 22, 22, 0.15)
+  );
+}
+
+.right_table {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.share_img {
+  width: 90%;
+}
+
+.notion_img,
+.github_img {
+  width: 80%;
+}
+
+.who_img {
+  width: 80%;
+}
+
+.youtube_img {
+  width: 80%;
+}
